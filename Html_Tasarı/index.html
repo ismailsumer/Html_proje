@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kişisel Tanıtım</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 0; pointer-events: none; display: flex; justify-content: center; align-items: center;">
+    <img src="images/Arka Plan logo.png" alt="" style="max-width: 60vw; max-height: 60vh; opacity: 0.15;">
+  </div>
+  <nav class="navbar navbar-expand-lg row">
+    <!-- Masaüstü Menü -->
+    <div class="container container-fluid d-none d-lg-block fixed-top bg-light" style="z-index: 1030;">
+      <div class="row w-100 align-items-center">
+        <div class="col-2 d-flex justify-content-start">
+          
+        </div>
+        <div class="col-8 menufont">
+          <div class="collapse navbar-collapse show" id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-center gap-5 p-3 w-100">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center justify-content-center gap-2" href="#anasayfa">
+                  <i class="bi bi-house-door-fill"></i>
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center justify-content-center gap-2" href="#hakkımda">
+                  <i class="bi bi-file-person-fill"></i>
+                  About Me
+                </a>
+              </li>
+                            
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center justify-content-center gap-2" href="#iletişim">
+                  <i class="bi bi-person-lines-fill"></i>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <!-- Mobil Menü -->
+    <div class="container-fluid d-lg-none d-flex flex-column align-items-stretch bg-light" style="position: fixed; top: 0; left: 0; right: 0; z-index: 1029;">
+      <div class="d-flex justify-content-between">
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavMobile">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+      </div>
+      <div class="collapse" id="navbarNavMobile">
+        <ul class="navbar-nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#anasayfa">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hakkımda">About Me</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link" href="#iletişim">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Masaüstü-->
+<div id="anasayfa" class="animation_text mrgtop3 d-block justify-content-center d-none d-lg-block">
+<h1 class="text-center">MERHABA BEN</h1>
+<h1 class="text-center">İsmail Sümer <span class="typewrite"
+                   data-period="2000"
+                   data-words='["Back-end Developer.", "Front-end Developer.", "Full-Stack Developer."]'>
+             </span></h1>
+</div>
+
+<!--Mobil-->
+<div class="mrgtop2 animation_text d-block justify-content-center d-lg-none">
+<h1 class="text-center">MERHABA BEN</h1>
+<h1 class="text-center">İsmail Sümer <span class="typewrite"
+                   data-period="2000"
+                   data-words='["Back-end Developer.", "Front-end Developer.", "Full-Stack Developer."]'>
+             </span></h1>
+</div>  
+
+<div id="hakkımda" class="mrgtop d-flex justify-content-center">
+
+
+  <div class="container py-5">
+    <header class="mb-5 text-center">
+      <h1 class="display-4">About Me</h1>
+    </header>
+
+    <section class="mb-4">
+      <h2 class="h4 border-bottom pb-2">Contact Information</h2>
+      <ul class="list-unstyled">
+        <li><strong>Phone:</strong> +90 554 412 34 67</li>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:mr.kfks@outlook.com">ismaillsumerr@gmail.com</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="h4 border-bottom pb-2">Professional Summary</h2>
+      <p>
+        Ben sosyalige ve insan ilişkilerine önem veren,
+        disiplinli, çalışkan ve çözüm odaklı biriyim. Yazılım alanında meraklıyım sürekli gelişim ve kendını yenılemeye onem veren hırslı ve çalışkan biriyim.  Hayatta isteyıpte başarılamıyacak hiçbirşey olmaycagına ınanıyorum 
+        <em>I am a disciplined, hardworking, and solution-oriented individual who values social interaction and human relationships. I am passionate about software development, constantly seeking to improve and innovate. I believe that there is nothing in life that cannot be achieved with determination and effort.</em>
+      </p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="h4 border-bottom pb-2">Education</h2>
+      <p>
+        <strong>Çukurova Üniversitesi Ekonometri Bölümü 
+         </strong><br />
+        <em>Çukurova University, Department of Econometrics, Graduated 2024</em><br />
+        <em>Çukurova Üniversitesi Ekonometri Bölümü 2024 Mezunu</em><br />
+         <strong>Atatürk Üniversitesi Adalet Meslek Yüksekokulu</strong><br />
+         <em>Atatürk University, Justice Vocational School, Expected Graduation 2025</em><br />
+        <em>Atatürk Üniversitesi Adalet Meslek Yüksekokulu 2025 Mezunu</em>
+      </p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="h4 border-bottom pb-2">Professional Experience</h2>
+      <p>
+        <strong>Double Tree by Hilton da görev yapmaktayım </strong>
+        — <em>2024 - Present</em>
+        <br />
+      </p>
+      <ul>
+        <li>İnsan ilişkilerine önem veren, disiplinli, çalışkan ve çözüm odaklı biriyim.</li>
+        <li>Yazılım alanında meraklıyım sürekli gelişim ve kendımı yenılemeye onem veren hırslı ve çalışkan biriyim.</li>
+        
+    </section>
+
+    <section class="mb-4">
+      <h2 class="h4 border-bottom pb-2">Skills & Competencies</h2>
+      <ul>
+      
+        <li>
+          <strong>Teamwork & Leadership:</strong> Farklı takımlar içerisinde etkin bir şekilde işbirliği yapma ve koordinasyon sağlama yeteneği
+        </li>
+        <li>
+          <strong>Software & Technology:</strong>
+          <ul>
+            <li><strong>Programming Languages & Web Technologies:</strong> C#, HTML, CSS, JavaScript</li>
+            <li><strong>CSS Framework:</strong> Bootstrap</li>
+            <li><strong>Database Technologies:</strong> MSSQL, NoSQL</li>
+          </ul>
+        </li>
+        <li>
+          <strong>İletişim:</strong> Fikirleri açıkça ifade etme ve bilgi alışverişini kolaylaştırma konusunda yetkinim.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="h4 border-bottom pb-2">Additional Information (Sertifikalar /Kurslar)</h2>
+      <ul>
+        <li>BT Akademi Database Programming</li>
+        <li>BT Akademi Excel Training</li>
+        <li>BT Akademi Software Expertise</li>
+      </ul>
+    </section>
+  </div>
+
+</div>
+
+<div id="iletişim" class="mrgtop4 d-flex justify-content-center">
+  <div class="col-12 col-md-8 col-lg-6">
+    <h1>Contact me!</h1>
+    <form class="container col-12 mt-4">
+    <div class="mb-3">
+        <label for="name" class="form-label">Adınız</label>
+        <input type="text" class="form-control" id="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">E-posta</label>
+        <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="message" class="form-label">Mesajınız</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Gönder</button>
+    </form>
+  </div>
+</div>
+
+  <!-- Masaüstü Tarafı -->
+  <div class="container-fluid fixed-bottom p-4 d-none d-lg-flex bg-light">
+    <div class="container d-flex justify-content-between align-items-center" style="max-width:600px;">
+      <a class="btn" href="https://x.com/ismsmr0?s=21" target="_blank" rel="noopener">
+        <i class="bi bi-twitter fs-3"></i>
+      </a>
+      <a class="btn" href="https://www.instagram.com/ismailsumerrr?igsh=azY0aHVlbDU2bmgy&utm_source=qr" target="_blank" rel="noopener">
+        <i class="bi bi-instagram fs-3"></i>
+      </a>
+      <a class="btn" href="https://www.linkedin.com/in/ismail-s%C3%BCmer-3284a4230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">
+        <i class="bi bi-linkedin fs-3"></i>
+      </a>
+      <a class="btn" href="https://github.com/ismailsumer" target="_blank" rel="noopener">
+        <i class="bi bi-github fs-3"></i>
+      </a>
+    </div>
+  </div>
+  <!-- Mobil Tarafı -->
+  <div class="p-4 fixed-bottom d-block d-lg-none bg-light">
+    <div class="container d-flex justify-content-between align-items-center" style="max-width:1000px;">
+      <a class="btn" href="https://x.com/ismsmr0?s=21" target="_blank" rel="noopener">
+        <i class="bi bi-twitter fs-3"></i>
+      </a>
+      <a class="btn" href="https://www.instagram.com/ismailsumerrr?igsh=azY0aHVlbDU2bmgy&utm_source=qr" target="_blank" rel="noopener">
+        <i class="bi bi-instagram fs-3"></i>
+      </a>
+      <a class="btn" href="https://www.linkedin.com/in/ismail-s%C3%BCmer-3284a4230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">
+        <i class="bi bi-linkedin fs-3"></i>
+      </a>
+      <a class="btn" href="https://github.com/ismailsumer" target="_blank" rel="noopener">
+        <i class="bi bi-github fs-3"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
